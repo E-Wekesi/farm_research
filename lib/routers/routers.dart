@@ -1,5 +1,5 @@
 import 'package:farmreasearch/authentication/login.dart';
-import 'package:farmreasearch/main.dart';
+import 'package:farmreasearch/home.dart';
 import 'package:flutter/material.dart';
 
 
@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "hek",
+      title: "h",
       initialRoute: '/',
       routes: {
         '/': (context) =>    const Home(),
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
 
 void main() {
   runApp(
-    HomePage(
+    const HomePage(
     ),
   );
 
