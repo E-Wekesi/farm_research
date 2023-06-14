@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "start",
+      title: "start up",
       initialRoute: '/',
       routes: {
         '/': (context) =>    const Home(),
